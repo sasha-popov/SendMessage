@@ -47,7 +47,7 @@ namespace WebFormSendMessage
             }
             else
             {
-                Response.Redirect("http://localhost:60940/Pages/SuccessPage.aspx", true);
+                Response.Redirect("Pages/SuccessPage.aspx");
             }
         }
         private string GetEmailEx(string validationResult)

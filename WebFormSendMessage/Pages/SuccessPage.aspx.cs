@@ -16,7 +16,7 @@ namespace WebFormSendMessage.Pages
 
         protected void ReturnToMainPage(object sender, EventArgs e)
         {
-            Response.Redirect("http://localhost:60940/MasterPage.aspx", true);
+            Response.Redirect("../MasterPage.aspx");
         }
     }
 }
