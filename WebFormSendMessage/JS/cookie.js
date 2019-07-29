@@ -1,11 +1,11 @@
 ﻿
 $(document).ready(function () {
     $('input').on('input', function () {
-        let email = $("#FormSendMessage1_email").val();
+        let email = $("#TitleContent_FormSendMessage_email").val();
         document.cookie = "email=" + email;
     });
     $('textarea').on('input', function () {
-        let message = $("#FormSendMessage1_message").val();
+        let message = $("#TitleContent_FormSendMessage_message").val();
         document.cookie = "message=" + message;
     });
 

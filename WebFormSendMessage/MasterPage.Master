@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebFormSendMessage.MasterPage" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body runat="server">
+            <div style="background: black; height: 87px; font-weight: bold; font-size: 20px; color: white; font-family: Verdana">
+                <h1 style="font-size: 20px; text-align: center">
+                    <asp:Label ID="HeaderId" runat="server" EnableTheming="True"></asp:Label>
+                </h1>
+            </div>
+            <asp:ContentPlaceHolder ID="TitleContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <div style="background: black; height: 87px; font-weight: bold; font-size: 20px; color: white; font-family: Verdana">
+                <h1 style="font-size: 20px; text-align: center">
+                    <asp:Label ID="FooterId" runat="server"></asp:Label>
+                </h1>
+            </div>
+            <br />
+            <br />
+</body>
+</html>

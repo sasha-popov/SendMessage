@@ -98,11 +98,12 @@
     <Content Include="Content\MainStyle.css" />
     <Content Include="FormSendMessage.ascx" />
     <Content Include="JS\cookie.js" />
-    <Content Include="MasterPage.aspx" />
+    <Content Include="MainPage.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -122,12 +123,19 @@
     <Compile Include="FormSendMessage.ascx.designer.cs">
       <DependentUpon>FormSendMessage.ascx</DependentUpon>
     </Compile>
-    <Compile Include="MasterPage.aspx.cs">
-      <DependentUpon>MasterPage.aspx</DependentUpon>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MasterPage.aspx.designer.cs">
-      <DependentUpon>MasterPage.aspx</DependentUpon>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Models\MessageBox.cs" />
     <Compile Include="Pages\SuccessPage.aspx.cs">

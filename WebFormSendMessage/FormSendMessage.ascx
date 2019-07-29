@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FormSendMessage.ascx.cs" Inherits="WebFormSendMessage.FormSendMessage" %>
 <link rel="stylesheet" href="/Content/MainStyle.css"/>
 <script src="JS/cookie.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <p id="emailP">
     <asp:Label ID="emailLabel" runat="server"></asp:Label>
 </p>

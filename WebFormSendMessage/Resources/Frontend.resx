@@ -123,6 +123,12 @@
   <data name="Email" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Header</value>
+  </data>
   <data name="IncorectEmail" xml:space="preserve">
     <value>Please enter proper email</value>
   </data>

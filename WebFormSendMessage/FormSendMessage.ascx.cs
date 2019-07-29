@@ -22,8 +22,9 @@ namespace WebFormSendMessage
         protected void SendMessage_Click(object sender, EventArgs e)
         {
             MessageBox messageBox = new MessageBox();
+
+            messageBox.Email=email.Text.ToString();
             messageBox.Message = message.Text.ToString();
-            messageBox.Email = email.Text.ToString();
 
             var context = new ValidationContext(messageBox, serviceProvider: null, items: null);
             var results = new List<ValidationResult>();
@@ -67,6 +68,7 @@ namespace WebFormSendMessage
             emailLabel.Text = Resources.Frontend.Email;
             messageLabel.Text = Resources.Frontend.Message;
             sendMessage.Text = Resources.Frontend.ButtonSend;
+
         }
 
         private void GetCookies()

@@ -13,30 +13,39 @@ namespace WebFormSendMessage {
     public partial class MasterPage {
         
         /// <summary>
-        /// TitleMainPage control.
+        /// head control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TitleMainPage;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
         
         /// <summary>
-        /// form1 control.
+        /// HeaderId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label HeaderId;
         
         /// <summary>
-        /// FormSendMessage1 control.
+        /// TitleContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WebFormSendMessage.FormSendMessage FormSendMessage1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder TitleContent;
+        
+        /// <summary>
+        /// FooterId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label FooterId;
     }
 }
